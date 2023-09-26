@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const [pageTitle, setPageTitle] = useState('VPS1');
+  const [pageTitle, setPageTitle] = useState('VPS2');
   useEffect(() => {
     document.title = pageTitle;
   }, [pageTitle]);
@@ -17,7 +17,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          UI 1
+          UI 2
           <br />
           Esta é uma pagina de testes em React!
         </p>
