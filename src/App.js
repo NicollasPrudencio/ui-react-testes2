@@ -10,8 +10,6 @@ function App() {
           UI 1
           <br/>
           Esta é uma pagina de testes em React!
-          <br/>
-          Automated Github Integration implementado!
         </p>
         <a
           className="App-link"
@@ -27,4 +25,3 @@ function App() {
 }
 
 export default App;
-
