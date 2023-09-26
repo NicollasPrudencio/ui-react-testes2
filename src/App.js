@@ -10,6 +10,8 @@ function App() {
           UI 1
           <br/>
           Esta é uma pagina de testes em React!
+          <br/>
+          Automated Github Integration implementado!
         </p>
         <a
           className="App-link"
@@ -17,7 +19,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Docs
         </a>
       </header>
     </div>
