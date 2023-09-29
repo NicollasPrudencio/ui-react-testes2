@@ -20,8 +20,6 @@ function App() {
           UI 2
           <br />
           Esta é uma pagina de testes em React!
-          <br />
-          Novo teste2!
         </p>
         <a
           className="App-link"
