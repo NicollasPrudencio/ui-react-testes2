@@ -7,9 +7,23 @@
   pointer-events: none;
 }
 
+/* Animação de flutuação */
+@keyframes float {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-15px); /* Define a quantidade que o objeto se move para cima */
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: float 5s infinite; /* Aplica a animação ao objeto com classe .App-logo */
+    transition: transform 0.3s; /* Garante uma transição suave */
   }
 }
 
