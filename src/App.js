@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
+import ibcmedlogo from './iconeibcmed.png';
 import './App.css';
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={ibcmedlogo} className="App-logo" alt="logo" />
         <p>
           UI 1
           <br />
