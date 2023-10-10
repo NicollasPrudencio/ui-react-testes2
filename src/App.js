@@ -4,7 +4,7 @@ import ibcmedlogo from './iconeibcmed.png';
 import './App.css';
 
 function App() {
-  const [pageTitle, setPageTitle] = useState('VPS1');
+  const [pageTitle, setPageTitle] = useState('VPS2');
   useEffect(() => {
     document.title = pageTitle;
   }, [pageTitle]);
@@ -18,9 +18,9 @@ function App() {
       <header className="App-header">
         <img src={ibcmedlogo} className="App-logo" alt="logo" />
         <p>
-          UI 1
+          UI 2
           <br />
-          Esta é uma pagina de testes em React hospedada na VPS 1 da IBCMED!
+          Esta é uma pagina de testes em React hospedada na VPS 2 da IBCMED!
         </p>
         <a
           className="App-link"
